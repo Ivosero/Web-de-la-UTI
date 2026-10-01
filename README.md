@@ -36,3 +36,10 @@ Logo proporcionado por el usuario. Fotos ilustrativas descargadas de Unsplash (l
 Transporte orientativo para el entorno de Parque Lezama; no representa una parada exacta ni información en tiempo real. Referencia GCBA: https://buenosaires.gob.ar/sites/default/files/media/document/2022/08/17/694513bc7addb3de09142fe05a5f2d1783002955.pdf. Planificar el viaje en https://recorridos.usig.buenosaires.gob.ar/.
 
 Video silenciado en bucle, control de pausa, poster de respaldo y respeto de movimiento reducido y ahorro de datos. Mapa externo cargado de forma diferida. Fotografías con textos alternativos y controles accesibles con teclado.
+
+## Muestra publicada
+
+https://web-de-la-uti.vercel.app/
+
+Repositorio: https://github.com/Ivosero/Web-de-la-UTI
+
