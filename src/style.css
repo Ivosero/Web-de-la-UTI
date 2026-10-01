@@ -28,3 +28,4 @@ header nav>a:not(.nav-contact),.nav-benefits-heading>a{padding:11px 12px;border-
 
 /* Imagen institucional exclusiva de UTI, sin otros gremios. */
 .gremial-gallery figure:first-child img{object-fit:contain;object-position:center;background:white;padding:24px}.gremial{background:linear-gradient(90deg,#173de5fa,#173de5f0),url(/assets/uti-logo.png) center/contain no-repeat}
+.uti-brand-photo{height:290px;background:white;display:flex;align-items:center;justify-content:center}.gremial-gallery figure:first-child .uti-brand-photo img{width:242px;height:242px;padding:0;border-radius:50%;object-fit:contain}.gremial{background:var(--blue)}@media(max-width:600px){.uti-brand-photo{height:250px}.gremial-gallery figure:first-child .uti-brand-photo img{width:210px;height:210px}}
