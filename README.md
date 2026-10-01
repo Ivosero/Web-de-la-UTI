@@ -52,3 +52,7 @@ El inicio conserva el video y accesos a las secciones. Cada opción del menú ab
 La fuente compartida está en `src/page-template.html`. El generador `scripts/generate-pages.mjs` construye el inicio y las páginas; se ejecuta automáticamente con `npm run build`. Para modificar contenidos de las secciones, editar la plantilla y ejecutar `npm run pages` antes de usar el servidor de desarrollo. No editar los HTML generados directamente porque se regeneran al compilar.
 
 El logo OSUTI se presenta en una versión vectorial preparada para mantener nitidez al escalar, basada en la identidad visual proporcionada. La fotografía de casamiento se reemplazó por una imagen ilustrativa clara de una decoración de ceremonia. El sitio no requiere reglas de redirección: los archivos HTML de cada página se incluyen en `dist` y en el ZIP para Hostinger.
+
+## Inicio completo y menú de Beneficios
+
+El inicio vuelve a mostrar las secciones completas, incluyendo beneficios por casamiento, nacimiento, gimnasio, estudiantes, turismo, novedades, calendario, obra social y contacto con mapa. Los enlaces del menú conservan páginas propias. Turismo y Obra social se agrupan en el submenú de Beneficios; la obra social se presenta separada de las tarjetas de beneficios.
