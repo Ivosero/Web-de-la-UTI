@@ -56,3 +56,7 @@ El logo OSUTI se presenta en una versión vectorial preparada para mantener niti
 ## Inicio completo y menú de Beneficios
 
 El inicio vuelve a mostrar las secciones completas, incluyendo beneficios por casamiento, nacimiento, gimnasio, estudiantes, turismo, novedades, calendario, obra social y contacto con mapa. Los enlaces del menú conservan páginas propias. Turismo y Obra social se agrupan en el submenú de Beneficios; la obra social se presenta separada de las tarjetas de beneficios.
+
+## Menú e imágenes gremiales
+
+El menú usa iluminación azul al pasar el mouse. Beneficios abre automáticamente su submenú en equipos con puntero y conserva apertura por toque y teclado. Fotografías de archivo de UTI y CGT incorporadas en Información gremial (inicio y página propia), con fuente visible: https://www.portalsur.com.ar/2025/10/31/tras-un-muy-fuerte-reclamo-pami-promete-convocar-a-paritarias/ y https://cgtoficial.org/. Archivos locales: `uti-gremial.jpg` y `cgt-encuentro.jpeg`.

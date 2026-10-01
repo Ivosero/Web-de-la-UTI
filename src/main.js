@@ -32,7 +32,15 @@ if(document.querySelector('#hero-video')) { const video=document.querySelector('
 const benefitsToggle=document.querySelector('#benefits-toggle');
 const benefitsSubmenu=document.querySelector('#benefits-submenu');
 function closeBenefitsMenu(){benefitsSubmenu.hidden=true;benefitsToggle.setAttribute('aria-expanded','false');}
-benefitsToggle.addEventListener('click',()=>{const open=benefitsSubmenu.hidden;benefitsSubmenu.hidden=!open;benefitsToggle.setAttribute('aria-expanded',String(open));});
+benefitsToggle.addEventListener('click',event=>{const open=benefitsSubmenu.hidden||(event.detail>0&&matchMedia('(hover: hover) and (pointer: fine)').matches);benefitsSubmenu.hidden=!open;benefitsToggle.setAttribute('aria-expanded',String(open));});
 document.addEventListener('click',event=>{if(!event.target.closest('.nav-benefits'))closeBenefitsMenu();});
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!benefitsSubmenu.hidden){closeBenefitsMenu();benefitsToggle.focus();}});
 if(['turismo','obra-social'].includes(document.body.dataset.page))document.querySelector('.nav-benefits').classList.add('active-section');
+
+// En equipos con mouse, abrir Beneficios al entrar y conservar el toque en móvil.
+const benefitsGroup=document.querySelector('.nav-benefits');
+const hoverPointer=matchMedia('(hover: hover) and (pointer: fine)');
+let benefitsCloseTimer;
+benefitsGroup.addEventListener('pointerenter',()=>{if(!hoverPointer.matches)return;clearTimeout(benefitsCloseTimer);benefitsSubmenu.hidden=false;benefitsToggle.setAttribute('aria-expanded','true');});
+benefitsGroup.addEventListener('pointerleave',()=>{if(!hoverPointer.matches)return;clearTimeout(benefitsCloseTimer);benefitsCloseTimer=setTimeout(()=>{if(!benefitsGroup.contains(document.activeElement))closeBenefitsMenu();},180);});
+benefitsGroup.addEventListener('focusout',event=>{if(!benefitsGroup.contains(event.relatedTarget)&&!benefitsGroup.matches(':hover'))closeBenefitsMenu();});
