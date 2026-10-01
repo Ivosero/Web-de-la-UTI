@@ -35,7 +35,7 @@ function closeBenefitsMenu(){benefitsSubmenu.hidden=true;benefitsToggle.setAttri
 benefitsToggle.addEventListener('click',event=>{const open=benefitsSubmenu.hidden||(event.detail>0&&matchMedia('(hover: hover) and (pointer: fine)').matches);benefitsSubmenu.hidden=!open;benefitsToggle.setAttribute('aria-expanded',String(open));});
 document.addEventListener('click',event=>{if(!event.target.closest('.nav-benefits'))closeBenefitsMenu();});
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!benefitsSubmenu.hidden){closeBenefitsMenu();benefitsToggle.focus();}});
-if(['turismo','obra-social'].includes(document.body.dataset.page))document.querySelector('.nav-benefits').classList.add('active-section');
+if(['beneficios','turismo','obra-social'].includes(document.body.dataset.page))document.querySelector('.nav-benefits').classList.add('active-section');
 
 // En equipos con mouse, abrir Beneficios al entrar y conservar el toque en móvil.
 const benefitsGroup=document.querySelector('.nav-benefits');
