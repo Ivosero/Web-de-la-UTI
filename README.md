@@ -60,3 +60,5 @@ El inicio vuelve a mostrar las secciones completas, incluyendo beneficios por ca
 ## Menú e imágenes gremiales
 
 El menú usa iluminación azul al pasar el mouse. Beneficios abre automáticamente su submenú en equipos con puntero y conserva apertura por toque y teclado. Fotografías de archivo de UTI y CGT incorporadas en Información gremial (inicio y página propia), con fuente visible: https://www.portalsur.com.ar/2025/10/31/tras-un-muy-fuerte-reclamo-pami-promete-convocar-a-paritarias/ y https://cgtoficial.org/. Archivos locales: `uti-gremial.jpg` y `cgt-encuentro.jpeg`.
+
+La fotografía de UTI con otros gremios fue reemplazada por la identidad institucional de UTI Seccional 11 proporcionada por el usuario, tanto en la tarjeta como en el fondo. La imagen de archivo de CGT se conserva.
