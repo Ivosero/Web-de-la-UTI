@@ -9,7 +9,8 @@ const assets = {
 'comunidad.jpg':'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=85',
 'capacitacion.jpg':'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=85',
 'salud.jpg':'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=900&q=85',
-'hero.mp4':'https://www.w3schools.com/howto/rain.mp4'
+'hero.mp4':'https://samplelib.com/lib/preview/mp4/sample-20s.mp4'
 };
 Promise.all(Object.entries(assets).map(async ([name,url])=>{try{const r=await fetch(url);if(!r.ok)throw Error(r.status);const buffer=Buffer.from(await r.arrayBuffer());fs.writeFileSync('public/assets/'+name,buffer);console.log(name+': '+buffer.length);}catch(e){console.log(name+': ERROR '+e.message);process.exitCode=1;}}));
+
 

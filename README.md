@@ -31,7 +31,7 @@ Los datos de teléfono, correo y horario son ilustrativos. Las notas, eventos, d
 
 ## Medios y referencias
 
-Logo proporcionado por el usuario. Fotos ilustrativas descargadas de Unsplash (las URL se registran en `download-assets.cjs`). Video ilustrativo: https://www.w3schools.com/howto/rain.mp4 (sustituir por un video institucional con derechos verificados antes de producción). La descarga permite que las fotos y el video funcionen desde el hosting sin depender de sus CDN.
+Logo proporcionado por el usuario. Fotos ilustrativas descargadas de Unsplash (las URL se registran en `download-assets.cjs`). Video ilustrativo: https://samplelib.com/lib/preview/mp4/sample-20s.mp4 (sustituir por un video institucional con derechos verificados antes de producción). La descarga permite que las fotos y el video funcionen desde el hosting sin depender de sus CDN.
 
 Transporte orientativo para el entorno de Parque Lezama; no representa una parada exacta ni información en tiempo real. Referencia GCBA: https://buenosaires.gob.ar/sites/default/files/media/document/2022/08/17/694513bc7addb3de09142fe05a5f2d1783002955.pdf. Planificar el viaje en https://recorridos.usig.buenosaires.gob.ar/.
 
@@ -42,4 +42,5 @@ Video silenciado en bucle, control de pausa, poster de respaldo y respeto de mov
 https://web-de-la-uti.vercel.app/
 
 Repositorio: https://github.com/Ivosero/Web-de-la-UTI
+
 
